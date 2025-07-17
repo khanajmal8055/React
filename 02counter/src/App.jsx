@@ -5,10 +5,14 @@ import './App.css'
 
 function App() {
   let [counter, setCounter] = useState(15)
+  // console.log(counter);
+  
 
   const addValue = () =>{
     if(counter < 20){
       setCounter(counter + 1)
+      setCounter((prevstate) => prevstate+1
+      )
     }
     
   }
