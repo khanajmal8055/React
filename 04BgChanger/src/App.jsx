@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [color, setColor] = useState("red")
+  const [color, setColor] = useState("olive")
   console.log(color);
   
 
