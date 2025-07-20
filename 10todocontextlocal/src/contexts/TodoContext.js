@@ -15,6 +15,8 @@ export const TodoContext = createContext({
     toggleComplete : (id) => {}
 })
 
+
+// custom hook design called useTodo that returns TodoContext
 export const useTodo = () => {
     return useContext(TodoContext)
 } 
