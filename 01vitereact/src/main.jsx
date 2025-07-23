@@ -21,7 +21,7 @@ function Myapp (){
 }
 
 const anotherElement = (
-  <a href="https://gogle.com">Click me to visit Google</a>
+  <a href="https://google.com">Click me to visit Google</a>
 )
 
 const reactElement = React.createElement(
